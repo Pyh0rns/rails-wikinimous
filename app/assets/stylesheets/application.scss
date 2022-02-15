@@ -1,0 +1,76 @@
+@import "bootstrap/scss/bootstrap";
+
+.header {
+  padding-top: 30px;
+  height: 200px;
+}
+
+.footer{
+  margin-top: 20px;
+  padding-top: 30px;
+  height: 150px;
+  background-color: antiquewhite;
+}
+
+.header h1 {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.header h2 {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 8px;
+  // grid-auto-rows: minmax(100px, auto);
+}
+
+.article {
+  background-color: lightgrey;
+  margin-bottom: 8px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 4px;
+  padding-left: 10px;
+  list-style: none;
+}
+
+.content {
+  color: rgb(65, 65, 65);
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+}
+
+.title {
+  color: black;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.link-post {
+  margin-left: 50px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.link-post-btn {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.delete {
+  font-size: 10px;
+}
